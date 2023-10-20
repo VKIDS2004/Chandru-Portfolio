@@ -1,11 +1,11 @@
 :root{
     --textColor : rgb(233, 233, 233);
     --mainTextColor : rgb(97, 167, 97);
-    --backColor : rgba(0, 0, 0, 0);
+    --backColor : rgba(0, 0, 0, 0.384);
     --borderRadius : 40px;
     --sectionGap : 20px;
     --borderColor : rgba(255, 255, 255, 0.568);
-    --sectionBlurLevel : 10px;
+    --sectionBlurLevel : 20px;
     --eduSkillItemBackColor : rgba(172, 172, 172, 0.26);
 }
 *{
@@ -22,7 +22,9 @@ body{
    
     background-image: url(assets/backgroud.jpg);
     background-attachment: fixed;
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     -webkit-user-select: none;
     -ms-user-select: none; 
     user-select: none; 
